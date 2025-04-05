@@ -42,7 +42,7 @@ userRouter.post("/signup", async (c) => {
   } catch (e) {
     c.status(403);
     return c.json({
-      error: "Error while signing up!!",
+      error: "Error during signing up!!",
     });
   }
 });
